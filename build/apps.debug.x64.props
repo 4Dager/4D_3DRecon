@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dependencies\glew\include;..\..\dependencies\libjpeg;..\..\dependencies\libpng;..\..\dependencies\libtiff;..\..\dependencies\zlib;..\..\source\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4101;4065;4244;4267;4305;4334;4800;4838</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\..\dependencies\glew\lib\x64\glew32.lib;..\..\dependencies\libjpeg\lib\Debug\libjpegd.lib;..\..\dependencies\libpng\lib\Debug\libpngd.lib;..\..\dependencies\libtiff\lib\Debug\libtiffd.lib;..\..\dependencies\zlib\lib\Debug\zlibd.lib;%(AdditionalDependencies);..\lib\$(Configuration)\x64\dmrecon.lib;..\lib\$(Configuration)\x64\fssr.lib;..\lib\$(Configuration)\x64\math.lib;..\lib\$(Configuration)\x64\mve.lib;..\lib\$(Configuration)\x64\ogl.lib;..\lib\$(Configuration)\x64\sfm.lib;..\lib\$(Configuration)\x64\util.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\libs\dmrecon\defines.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\dmrecon.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\global_view_selection.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\image_pyramid.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\local_view_selection.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\mvs_tools.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\patch_optimization.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\patch_sampler.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\progress.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\settings.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\single_view.h" />
+    <ClInclude Include="..\..\source\libs\dmrecon\view_selection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\libs\dmrecon\dmrecon.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\global_view_selection.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\image_pyramid.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\local_view_selection.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\mvs_tools.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\patch_optimization.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\patch_sampler.cc" />
+    <ClCompile Include="..\..\source\libs\dmrecon\single_view.cc" />
+  </ItemGroup>
+</Project>

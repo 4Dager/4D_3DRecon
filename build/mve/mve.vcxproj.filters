@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\source\libs\mve\bundle.cc" />
+    <ClCompile Include="..\..\source\libs\mve\bundle_io.cc" />
+    <ClCompile Include="..\..\source\libs\mve\camera.cc" />
+    <ClCompile Include="..\..\source\libs\mve\depthmap.cc" />
+    <ClCompile Include="..\..\source\libs\mve\image_exif.cc" />
+    <ClCompile Include="..\..\source\libs\mve\image_io.cc" />
+    <ClCompile Include="..\..\source\libs\mve\image_tools.cc" />
+    <ClCompile Include="..\..\source\libs\mve\marching.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_info.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_npts.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_obj.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_off.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_pbrt.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_ply.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_io_smf.cc" />
+    <ClCompile Include="..\..\source\libs\mve\mesh_tools.cc" />
+    <ClCompile Include="..\..\source\libs\mve\scene.cc" />
+    <ClCompile Include="..\..\source\libs\mve\view.cc" />
+    <ClCompile Include="..\..\source\libs\mve\volume.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\libs\mve\bundle.h" />
+    <ClInclude Include="..\..\source\libs\mve\bundle_io.h" />
+    <ClInclude Include="..\..\source\libs\mve\camera.h" />
+    <ClInclude Include="..\..\source\libs\mve\defines.h" />
+    <ClInclude Include="..\..\source\libs\mve\depthmap.h" />
+    <ClInclude Include="..\..\source\libs\mve\image.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_base.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_color.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_drawing.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_exif.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_io.h" />
+    <ClInclude Include="..\..\source\libs\mve\image_tools.h" />
+    <ClInclude Include="..\..\source\libs\mve\marching_cubes.h" />
+    <ClInclude Include="..\..\source\libs\mve\marching_tets.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_info.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_npts.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_obj.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_off.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_pbrt.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_ply.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_io_smf.h" />
+    <ClInclude Include="..\..\source\libs\mve\mesh_tools.h" />
+    <ClInclude Include="..\..\source\libs\mve\scene.h" />
+    <ClInclude Include="..\..\source\libs\mve\view.h" />
+    <ClInclude Include="..\..\source\libs\mve\volume.h" />
+  </ItemGroup>
+</Project>

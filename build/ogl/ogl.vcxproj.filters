@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\libs\ogl\camera.h" />
+    <ClInclude Include="..\..\source\libs\ogl\camera_2d.h" />
+    <ClInclude Include="..\..\source\libs\ogl\camera_trackball.h" />
+    <ClInclude Include="..\..\source\libs\ogl\check_gl_error.h" />
+    <ClInclude Include="..\..\source\libs\ogl\context.h" />
+    <ClInclude Include="..\..\source\libs\ogl\defines.h" />
+    <ClInclude Include="..\..\source\libs\ogl\events.h" />
+    <ClInclude Include="..\..\source\libs\ogl\key_symbols.h" />
+    <ClInclude Include="..\..\source\libs\ogl\mesh_renderer.h" />
+    <ClInclude Include="..\..\source\libs\ogl\opengl.h" />
+    <ClInclude Include="..\..\source\libs\ogl\render_tools.h" />
+    <ClInclude Include="..\..\source\libs\ogl\shader_program.h" />
+    <ClInclude Include="..\..\source\libs\ogl\texture.h" />
+    <ClInclude Include="..\..\source\libs\ogl\vertex_array.h" />
+    <ClInclude Include="..\..\source\libs\ogl\vertex_buffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\libs\ogl\camera_2d.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\camera_trackball.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\events.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\mesh_renderer.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\render_tools.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\shader_program.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\texture.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\vertex_array.cc" />
+    <ClCompile Include="..\..\source\libs\ogl\vertex_buffer.cc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="run_3drecon.bat" />
+    <None Include="install.debug.x64.bat" />
+    <None Include="install.release.x64.bat" />
+    <None Include="unzip_3rdparty.bat" />
+  </ItemGroup>
+</Project>

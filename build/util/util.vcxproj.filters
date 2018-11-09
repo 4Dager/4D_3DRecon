@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\libs\util\aligned_allocator.h" />
+    <ClInclude Include="..\..\source\libs\util\aligned_memory.h" />
+    <ClInclude Include="..\..\source\libs\util\arguments.h" />
+    <ClInclude Include="..\..\source\libs\util\defines.h" />
+    <ClInclude Include="..\..\source\libs\util\exception.h" />
+    <ClInclude Include="..\..\source\libs\util\file_system.h" />
+    <ClInclude Include="..\..\source\libs\util\frame_timer.h" />
+    <ClInclude Include="..\..\source\libs\util\ini_parser.h" />
+    <ClInclude Include="..\..\source\libs\util\logging.h" />
+    <ClInclude Include="..\..\source\libs\util\strings.h" />
+    <ClInclude Include="..\..\source\libs\util\system.h" />
+    <ClInclude Include="..\..\source\libs\util\timer.h" />
+    <ClInclude Include="..\..\source\libs\util\tokenizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\libs\util\arguments.cc" />
+    <ClCompile Include="..\..\source\libs\util\file_system.cc" />
+    <ClCompile Include="..\..\source\libs\util\ini_parser.cc" />
+    <ClCompile Include="..\..\source\libs\util\system.cc" />
+  </ItemGroup>
+</Project>
